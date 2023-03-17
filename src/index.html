@@ -1,12 +1,89 @@
 <!DOCTYPE html>
 <html>
-  <head>
-    <meta charset="utf-8">
-    <title>Data Lovers Ppokecon Go</title>
-    <link rel="stylesheet" href="style.css" />
-  </head>
-  <body>
-    <div id="root"></div>
-    <script src="main.js" type="module"></script>
-  </body>
+
+<head>
+  <meta charset="utf-8">
+  <title>Data Lovers </title>
+  <link rel="stylesheet" href="style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Ubuntu+Condensed&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Neucha&display=swap" rel="stylesheet">
+</head>
+
+<header class="header">
+  <img src="assets/logo.png" alt="logo pokemonGo" class="logo">
+</header>
+
+<body>
+  <nav>
+    <option class="link navOption" >Ver todo</option>
+    <select class="link navOption" id="az">orden alfabético
+    <option disabled selected>Orden alfabético</option>
+    <option value="">A-Z</option>
+    <option value="">Z-A</option>
+  </select>
+  </select>
+  </select>
+    <select class="link navOption" id="seleweaknesses">  
+      <option disabled selected>Debilidades</option>
+       <option value="acero">acero</option>
+       <option value="agua">agua</option>
+       <option value="dragon">Dragón</option>
+       <option value="fantasma">fantasma</option>
+       <option value="fuego">fuego</option>
+       <option value="hielo">hielo</option>
+       <option value="normal">Normal</option>
+       <option value="planta">planta</option>
+       <option value="psiquico">psiquico</option>
+       <option value="roca">roca</option>
+       <option value="veneno">veneno</option>
+       <option value="bicho">bicho</option> 
+       <option value="electrico">electrico</option>
+       <option value="hada">hada</option>
+       <option value="lucha">lucha</option>
+       <option value="tierra">tierra</option>
+       <option value="volador" >volador</option>
+       <option value="oscuro">Oscuro</option>
+   </select>
+  </nav>
+
+  
+  
+  <div class="container">
+  <div class="categoriasList" id="cate">
+    <span class="categoria">Categoría </span>
+    <option class="link" id="acero">Acero</option>
+    <option class="link" id="agua">Agua </option>
+    <option class="link" id="dragon">Dragón</option>
+    <option class="link" id="fantasma">Fantasma</option>
+    <option class="link" id="fuego">Fuego</option>
+    <option class="link" id="hielo">Hielo</option>
+    <option class="link" id="normal">Normal</option>
+    <option class="link" id="planta">Planta</option>
+    <option class="link" id="psiquico">Psíquico</option>
+    <option class="link" id="roca">Roca</option>
+    <option class="link" id="veneno">Veneno</option>
+    <option class="link" id="bicho">Bicho</option>
+    <option class="link" id="electrico">Eléctrico</option>
+    <option class="link" id="hada">Hada</option>
+    <option class="link" id="lucha">Lucha</option>
+    <option class="link" id="tierra">Tierra</option>
+    <option class="link" id="volador">Volador</option>
+    <option class="link" id="oscuro">Oscuro</option>
+  </div>
+
+
+  <div id="root"></div>
+</div>
+<footer class="footer">
+    <span>Laboratoria</span>
+    <img src="assets/pokebola.png" alt="Imagen pokebola" class="pokebola">
+  </footer>
+  <script src="main.js" type="module"></script>
+</body>
+
+
 </html>

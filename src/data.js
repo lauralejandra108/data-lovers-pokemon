@@ -1,9 +1,7 @@
-// estas funciones son de ejemplo
-
-export const example = () => {
-  return 'example';
+// que acceda a la data y de la data al type de pokemones 
+export const filterType = (dataArray, typeUser) => {
+  return dataArray.filter(element => element.type.includes(typeUser))
 };
-
-export const anotherExample = () => {
-  return 'OMG';
+export const filterWeaknesses = (dataArray, typeUser) => {
+  return dataArray.filter(element => element.weaknesses.includes(typeUser))
 };
